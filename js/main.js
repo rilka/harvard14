@@ -81,7 +81,7 @@ $(document).ready(function() {
       });
     }
   }, {
-    offset: $("nav").height() * 2 + defaultOffset
+    offset: $("nav").height() * 3 + defaultOffset
   });
   $("section.tail").waypoint(function(direction) {
     var id;
@@ -120,7 +120,10 @@ $(document).ready(function() {
   /* VISUALS (or something like that) */
   return $("#section1-graph6").highcharts({
     chart: {
-      backgroundColor: null
+      backgroundColor: null,
+      style: {
+        fontFamily: "Source Sans Pro"
+      }
     },
     colors: ["#FFFFFF"],
     credits: {
@@ -138,7 +141,9 @@ $(document).ready(function() {
       text: null
     },
     tooltip: {
-      pointFormat: "<b>{point.y}%</b>"
+      animation: false,
+      pointFormat: "<b>{point.y}%</b>",
+      shadow: false
     },
     xAxis: {
       categories: ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"],

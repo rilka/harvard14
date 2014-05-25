@@ -7,13 +7,13 @@ $white: #fff;
 $black: #000;
 $pure-black: #000;
 
-$red: #c0392b;
-$orange: #d35400;
-$yellow: #f1c40f;
-$aqua: #1abc9c;
-$blue: #3498db;
-$purple: #9b59b6;
-$asphalt: #34495e;
+$red: #dd0022;
+$blue: #4444AA;
+$yellow: #ddaa00;
+$green: #117755;
+$violet: #6633aa;
+$orange: #fe5552;
+$gray: #555555;
 
 $nav-width: 180px;
 $intro-width: 460px;
@@ -209,7 +209,7 @@ body {
   color: $white;
 }
 .section-2 {
-  background: $orange;
+  background: $blue;
   color: $white;
 }
 .section-3 {
@@ -217,19 +217,19 @@ body {
   color: $black;
 }
 .section-4 {
-  background: $aqua;
+  background: $green;
   color: $white;
 }
 .section-5 {
-  background: $blue;
+  background: $violet;
   color: $white;
 }
 .section-6 {
-  background: $purple;
-  color: $white;
+  background: $orange;
+  color: $black;
 }
 .section-7 {
-  background: $asphalt;
+  background: $gray;
   color: $white;
 }
 
@@ -250,8 +250,8 @@ body {
 }
 
 // HACK ~ Whatever.
-#section-3 .component {
-  + .component {
+#section-3, #section-6 {
+  .component + .component {
     border-top: 1px dotted rgba(0, 0, 0, 0.8);
   }
 }

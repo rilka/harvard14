@@ -83,7 +83,7 @@ $(document).ready ->
     else if direction == "up"
       $("nav").animate {opacity: 1}
   ,
-    offset: $("nav").height() * 2 + defaultOffset
+    offset: $("nav").height() * 3 + defaultOffset
   )
 
   # Switch inner sections when scrolling down
@@ -119,13 +119,13 @@ $(document).ready ->
       $("nav a").removeClass()
       $("nav a[href=#" + id + "]").addClass("active")
   ,
-    offset: -defaultOffset # TODO ~ Actually figure out this "bottom of viewport" business
+    offset: -defaultOffset # TODO ~ Switch when the bottom of the section is in view
   )
 
   ### NAVIGATION ###
 
   $("nav a").click((e) ->
-    e.preventDefault()
+    e.preventDefault() # TODO ~ Scrollolololol
   )
 
   ### VISUALS (or something like that) ###
@@ -134,6 +134,8 @@ $(document).ready ->
   $("#section1-graph6").highcharts
     chart:
       backgroundColor: null
+      style:
+        fontFamily: "Source Sans Pro"
     colors: ["#FFFFFF"]
     credits:
       enabled: false
@@ -145,7 +147,9 @@ $(document).ready ->
     title:
       text: null
     tooltip:
+      animation: false
       pointFormat: "<b>{point.y}%</b>"
+      shadow: false
     xAxis:
       categories: ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"]
       gridLineColor: "rgba(255, 255, 255, 0.2)"

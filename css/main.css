@@ -126,31 +126,31 @@ body {
   transition: all 0.5s; }
 
 .section-1, #section-1 {
-  background: #c0392b;
+  background: #dd0022;
   color: white; }
 
 .section-2 {
-  background: #d35400;
+  background: #4444aa;
   color: white; }
 
 .section-3 {
-  background: #f1c40f;
+  background: #ddaa00;
   color: black; }
 
 .section-4 {
-  background: #1abc9c;
+  background: #117755;
   color: white; }
 
 .section-5 {
-  background: #3498db;
+  background: #6633aa;
   color: white; }
 
 .section-6 {
-  background: #9b59b6;
-  color: white; }
+  background: #fe5552;
+  color: black; }
 
 .section-7 {
-  background: #34495e;
+  background: #555555;
   color: white; }
 
 .section-viz {
@@ -162,7 +162,7 @@ body {
     padding: 24px 0;
     border-top: 1px dotted rgba(255, 255, 255, 0.3); }
 
-#section-3 .component + .component {
+#section-3 .component + .component, #section-6 .component + .component {
   border-top: 1px dotted rgba(0, 0, 0, 0.8); }
 
 .numbers .numbers-title {
