@@ -19,6 +19,9 @@ a {
   background: rgba(0, 0, 0, 0.7);
   color: #FFF; }
 
+.c2, .c3 {
+  font-weight: 600; }
+
 header {
   background: url(../img/header.jpg) no-repeat center;
   background-size: cover;
@@ -53,6 +56,8 @@ header {
     font-size: 20px;
     font-weight: 200;
     line-height: 1.6em; }
+  .intro p {
+    margin-top: 0; }
 
 nav {
   position: absolute;
@@ -112,6 +117,10 @@ section {
       text-transform: uppercase; }
     section .section-intro .intro-content {
       font-weight: 200; }
+      section .section-intro .intro-content a {
+        border-bottom: 1px dotted #FFF; }
+        section .section-intro .intro-content a:hover {
+          border-bottom: 1px solid #FFF; }
   section .section-viz {
     margin-left: 800px;
     width: 600px; }
@@ -136,9 +145,13 @@ body {
 .section-3 {
   background: #ddaa00;
   color: black; }
+  .section-3 .intro-content a {
+    border-bottom: 1px dotted #000; }
+    .section-3 .intro-content a:hover {
+      border-bottom: 1px solid #000; }
 
 .section-4 {
-  background: #117755;
+  background: #de4b00;
   color: white; }
 
 .section-5 {
@@ -146,8 +159,8 @@ body {
   color: white; }
 
 .section-6 {
-  background: #fe5552;
-  color: black; }
+  background: #117755;
+  color: white; }
 
 .section-7 {
   background: #555555;

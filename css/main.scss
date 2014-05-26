@@ -12,7 +12,7 @@ $blue: #4444AA;
 $yellow: #ddaa00;
 $green: #117755;
 $violet: #6633aa;
-$orange: #fe5552;
+$orange: #de4b00;
 $gray: #555555;
 
 $nav-width: 180px;
@@ -43,6 +43,10 @@ a {
   background: rgba(0, 0, 0, 0.7);
   color: #FFF;
 }
+
+// HACK TO COPY OVER BOLD TEXT FROM GOOGLE DOCS LOL
+
+.c2, .c3 { font-weight: 600; }
 
 // OUTER LAYOUT
 
@@ -90,6 +94,10 @@ header {
     font-size: 20px;
     font-weight: 200;
     line-height: 1.6em;
+  }
+
+  p {
+    margin-top: 0;
   }
 }
 
@@ -183,6 +191,13 @@ section {
 
     .intro-content {
       font-weight: 200;
+
+      a {
+        border-bottom: 1px dotted #FFF;
+        &:hover {
+          border-bottom: 1px solid #FFF;
+        }
+      }
     }
 
   }
@@ -215,9 +230,18 @@ body {
 .section-3 {
   background: $yellow;
   color: $black;
+
+  .intro-content {
+    a {
+      border-bottom: 1px dotted #000;
+      &:hover {
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
 }
 .section-4 {
-  background: $green;
+  background: $orange;
   color: $white;
 }
 .section-5 {
@@ -225,8 +249,8 @@ body {
   color: $white;
 }
 .section-6 {
-  background: $orange;
-  color: $black;
+  background: $green;
+  color: $white;
 }
 .section-7 {
   background: $gray;
