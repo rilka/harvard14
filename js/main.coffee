@@ -370,7 +370,44 @@ $(document).ready ->
         style:
           color: "#FFF"
 
-  $("#section2-graph5").highcharts() # TODO
+  $("#section2-graph5").highcharts
+    chart:
+      backgroundColor: null
+      style:
+        fontFamily: "Source Sans Pro"
+      type: "column"
+    colors: ["#FFFFFF", "#CCCCCC", "#999999", "#666666"]
+    credits:
+      enabled: false
+    legend:
+      enabled: false
+    series: [
+      data: [5.60, 60.00, 42.42, 41.13, 33.33, 27.27, 18.84]
+    ]
+    title:
+      text: null
+    tooltip:
+      animation: false
+      pointFormat: "<b>{point.y}%</b>"
+      shadow: false
+    xAxis:
+      categories: ["Non-Hispanic White or European American", "Black or African American", "Latino or Hispanic American", "East Asian or Asian American", "South Asian or Indian American", "Middle Eastern or Arab American", "Multiracial"]
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      gridLineWidth: 1
+      tickWidth: 0
+      labels:
+        style:
+          color: "#FFF"
+    yAxis:
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      lineColor: "#FFF"
+      lineWidth: 1
+      title:
+        text: null
+      labels:
+        format: "{value}%"
+        style:
+          color: "#FFF"
 
   # SECTION 4 ("EXTRACURRICULARS")
 
