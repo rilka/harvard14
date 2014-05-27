@@ -8,12 +8,12 @@ $white: #fff;
 $black: #000;
 $pure-black: #000;
 
-$red: #dd0022;
-$blue: #4444AA;
-$yellow: #ddaa00;
-$green: #117755;
-$violet: #6633aa;
-$orange: #de4b00;
+$red: #C40009;
+$blue: #2B2B91;
+$yellow: #C49100;
+$green: #C53200;
+$violet: #4D1A91;
+$orange: #005E3C;
 $gray: #555555;
 
 $nav-width: 180px;
@@ -159,7 +159,7 @@ header {
 
     color: #554;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 1.6em;
   }
 
@@ -236,33 +236,40 @@ nav {
 footer {
   background: url(../img/footer.jpg) no-repeat center;
   background-size: cover;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
   overflow: auto;
 
   .footer-content {
-    color: $white;
-    text-align: center;
-
-    h1 {
-      font-family: "Pacifico";
-      font-size: 84px;
-      text-shadow: 2px 2px 16px $pure-black;
-    }
-
-    .footer-blurb {
-      margin-top: -24px;
-      font-size: 18px;
-      font-weight: 200;
-      text-shadow: 2px 2px 2px $pure-black;
-
-      a {
-        border-bottom: 1px dotted $white;
-
-        &:hover {
-          border-bottom: 1px solid $white;
-        }
-      }
-    }
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5% 30%;
   }
+
+  // .footer-content {
+  //   color: $white;
+  //   text-align: center;
+
+  //   h1 {
+  //     font-family: "Pacifico";
+  //     font-size: 84px;
+  //     text-shadow: 2px 2px 16px $pure-black;
+  //   }
+
+  //   .footer-blurb {
+  //     margin-top: -24px;
+  //     font-size: 18px;
+  //     font-weight: 200;
+  //     text-shadow: 2px 2px 2px $pure-black;
+
+  //     a {
+  //       border-bottom: 1px dotted $white;
+
+  //       &:hover {
+  //         border-bottom: 1px solid $white;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 // "INNER" LAYOUT

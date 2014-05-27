@@ -17,7 +17,7 @@ introText = {
 $(document).ready(function() {
 
   /* CONTENT */
-  var defaultOffset, footerContentHeight, headerContentHeight, section, t, viewHeight, _i;
+  var defaultOffset, headerContentHeight, section, t, viewHeight, _i;
   t = introText[0];
   $(".intro-content").html(t);
   for (section = _i = 1; _i <= 7; section = ++_i) {
@@ -28,11 +28,8 @@ $(document).ready(function() {
   /* POSITIONING */
   viewHeight = $(window).height();
   $("header").height(viewHeight);
-  $("footer").height(viewHeight);
   headerContentHeight = $(".header-content").height();
   $(".header-content").css("margin-top", (viewHeight / 2) - (headerContentHeight / 2));
-  footerContentHeight = $(".footer-content").height();
-  $(".footer-content").css("margin-top", (viewHeight / 2) - (footerContentHeight / 2));
 
   /* SCROLLING */
   defaultOffset = 200;

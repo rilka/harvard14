@@ -33,13 +33,9 @@ $(document).ready ->
 
   viewHeight = $(window).height();
   $("header").height(viewHeight);
-  $("footer").height(viewHeight);
 
   headerContentHeight = $(".header-content").height();
   $(".header-content").css("margin-top", (viewHeight / 2) - (headerContentHeight / 2))
-
-  footerContentHeight = $(".footer-content").height();
-  $(".footer-content").css("margin-top", (viewHeight / 2) - (footerContentHeight / 2))
 
   ### SCROLLING ###
 
