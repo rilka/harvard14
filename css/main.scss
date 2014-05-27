@@ -16,7 +16,7 @@ $orange: #de4b00;
 $gray: #555555;
 
 $nav-width: 180px;
-$intro-width: 460px;
+$intro-width: 420px;
 $viz-width: 600px;
 
 // RESETS
@@ -39,8 +39,8 @@ a {
   text-decoration: none;
 }
 
-::selection {
-  background: rgba(0, 0, 0, 0.7);
+::selection, ::-moz-selection {
+  background: rgba(0, 0, 0, 0.9);
   color: #FFF;
 }
 
@@ -56,6 +56,7 @@ header {
   overflow: auto;
 
   .header-content {
+    padding-top: 48px;
     h1 {
       color: #FFF;
       font-family: "Pacifico";
@@ -70,6 +71,36 @@ header {
         font-weight: 200;
         text-shadow: 2px 2px 4px #000;
         text-transform: lowercase;
+      }
+    }
+
+    h2 {
+      color: #FFF;
+      font-weight: 200;
+      margin-top: -4px;
+      text-align: center;
+      text-shadow: 2px 2px 4px #000;
+
+      a {
+        border-bottom: 1px dotted #FFF;
+
+        &:hover {
+          border-bottom: 1px solid #FFF;
+        }
+      }
+    }
+
+    h3 {
+      font-size: 14px;
+      font-weight: 200;
+      width: 480px;
+      margin: 80px auto 0;
+      text-align: center;
+      text-shadow: 2px 2px 8px #000;
+
+      .name {
+        font-weight: 600;
+        text-transform: uppercase;
       }
     }
   }
@@ -90,7 +121,7 @@ header {
     -moz-column-gap: 60px;
     column-gap: 60px;
 
-    color: #776;
+    color: #554;
     font-size: 20px;
     font-weight: 200;
     line-height: 1.6em;
@@ -132,6 +163,33 @@ nav {
 
     &.active {
       opacity: 0.7;
+    }
+  }
+
+  .link-commencement {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 16px 12px;
+    border: 1px solid #FFF;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    .one {
+      display: block;
+      font-family: "Georgia";
+      font-size: 15px;
+      font-style: italic;
+      font-weight: 200;
+      text-transform: none;
+    }
+
+    .two {
+      display: block;
+      padding-top: 4px;
+      font-size: 13px;
+      font-weight: 700;
     }
   }
 }
@@ -179,7 +237,7 @@ section {
 
   .section-intro {
     position: absolute;
-    margin-left: 40px + $nav-width + 40px;
+    margin-left: 40px + $nav-width + 60px;
     width: $intro-width;
 
     .intro-title {
@@ -202,7 +260,7 @@ section {
 
   }
   .section-viz {
-    margin-left: 40px + $nav-width + 60px + $intro-width + 60px;
+    margin-left: 40px + $nav-width + 60px + $intro-width + 80px;
     width: $viz-width;
   }
 }
@@ -233,12 +291,17 @@ body {
 
   .intro-content {
     a {
-      border-bottom: 1px dotted #000;
+      border-bottom: 1px dotted #000 !important;
       &:hover {
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid #000 !important;
       }
     }
   }
+
+  .link-commencement {
+    border: 1px solid #000 !important;
+  }
+
 }
 .section-4 {
   background: $orange;
@@ -256,7 +319,6 @@ body {
   background: $gray;
   color: $white;
 }
-
 
 // VISUALS
 
@@ -318,5 +380,9 @@ body {
       height: 200px;
       border: 1px solid rgba(0, 0, 0, 0.5);
     }
+  }
+
+  .graph-graph.hasbg {
+    margin: 20px 0 12px 0;
   }
 }

@@ -15,7 +15,7 @@ introText = {
 
   6: '<p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">Massachusetts is well known as a deep blue state, and the Class of 2014&rsquo;s turf in Cambridge has proved no exception</span><span class="c0 c4">: </span><span class="c0 c2">59 percent </span><span class="c0 c4">of surveyed seniors characterized themselves as liberal or very liberal. That number, however, drops significantly for seniors going into finance, among which only </span><span class="c2 c0">a quarter</span><span class="c0 c4">&nbsp;said they lean leftward.</span></p><p class="c1 c5"><span class="c0 c4"></span></p><p class="c1"><span class="c0">Graduating seniors spent their entire college career with Barack Obama in the White House</span><span class="c0 c4">, and they are overwhelmingly supportive of their president and his policies. </span><span class="c2 c0">Eighty percent </span><span class="c0 c4">of eligible respondents voted to reelect Obama in 2012, and now, even as his national favorability ratings </span><span class="c2 c0">hover in the </span><span class="c2 c0">mid-40s</span><span class="c0 c4">, Obama can still count on a </span><span class="c2 c0">72 percent </span><span class="c0 c4">approval rating among surveyed Harvard seniors. And while Obama&rsquo;s overhaul of the national health care system faces approval ratings </span><span class="c2 c0">in the low 40s</span><span class="c2 c0">&nbsp;</span><span class="c0 c4">among the American public, the Affordable Care Act enjoys a </span><span class="c2 c0">66 percent </span><span class="c0 c4">favorability rating within the Class of 2014.</span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">Other contested issues that have gained mainstream political capital over the past four years proved popular among surveyed seniors. </span><span class="c0 c3">Ninety percent </span><span class="c0">of respondents</span><span class="c0 c4">&mdash;including </span><span class="c2 c0">59 percent </span><span class="c0 c4">of Harvard&rsquo;s self-identified conservatives&mdash;</span><span class="c0">said they felt favorably about same-sex marriage. And </span><span class="c0 c3">62 percent </span><span class="c0">said they support marijuana legalization</span><span class="c0 c4">, </span><span class="c0">a figure that jumps to </span><span class="c0 c3">91 percent </span><span class="c0">among surveyed seniors who use marijuana at least twice a semester.</span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">Harvard has its fair share of political alumni,</span><span class="c0 c4">&nbsp;a club that could grow if members of the Class of 2014 follow through with their plans to enter politics. Among respondents who envision themselves working in government or politics in 10 years, </span><span class="c2 c0">two-fifths admitted </span><span class="c0 c4">to having used marijuana, and </span><span class="c2 c0">7 percent</span><span class="c2 c0">&nbsp;</span><span class="c0 c4">admitted to having cheated in academics.</span></p><p class="c1 c5"><span class="c0 c4"></span></p>'
 
-  7: '<p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">The C</span><span class="c0">lass of 2014 attended Harvard during an eventful four years that included the return of ROTC and the early action admissions program, a massive cheating scandal and a controversial email search, the launch of a more than $1 billion House renewal project and a $6.5 billion capital campaign to help fund it, and the replacement of two College deans.</span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">When asked to evaluate the institution&rsquo;s leaders and initiatives, surveyed seniors were sometimes divided in their opinions. Take, for instance, University President Drew G. Faust, who received a </span><span class="c0 c3">48 percent </span><span class="c0">approval rating from graduating seniors, although </span><span class="c0 c3">34 percent </span><span class="c0">said they had no opinion or not enough information. </span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">Surveyed seniors had no trouble reaching consensus, however, regarding outgoing interim Dean of the College Donald H. Pfister, who emphasized communication with undergraduates while heading the College this past year. Pfister enjoyed an </span><span class="c0 c3">87 percent </span><span class="c0">approval rating among seniors, compared to the </span><span class="c0 c3">14 percent </span><span class="c0">approval rating of former College Dean </span><span class="c0">Evelynn M. Hammonds</span><span class="c0">, who </span><span class="c7 c0"><a class="c6" href="http://www.google.com/url?q=http%3A%2F%2Fwww.thecrimson.com%2Farticle%2F2013%2F5%2F28%2Fhammonds-crises-protect-searches%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFQDTOvgc-yGhKVn9mR5Ts50srxDw">led the undergraduate body</a></span><span class="c0">&nbsp;for the Class of 2014&rsquo;s first three years at Harvard. </span><span class="c0 c3">Twelve percent and 33 percent</span><span class="c0">&nbsp;of respondents said they had no opinion or not information about Pfister and Hammonds, respectively.</span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">University programs and positions also saw uneven support. Surveyed seniors were cool towards the </span><span class="c7 c0"><a class="c6" href="http://www.google.com/url?q=http%3A%2F%2Fwww.thecrimson.com%2Farticle%2F2014%2F5%2F6%2Ffaculty-passes-honor-code%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGPSOOhu04SkHPJc2o7kPXImr6EVQ">soon-to-be-overhauled</a></span><span class="c0">&nbsp;Administrative Board, with just </span><span class="c0 c3">13 percent</span><span class="c0">&nbsp;saying they approved of Harvard&rsquo;s disciplinary body. And although only Quincy seniors had the opportunity to experience the dividends of House Renewal, </span><span class="c0 c3">three-fifths </span><span class="c0">of all respondents said they approved of Harvard&rsquo;s plan to eventually restore all 12 undergraduate Houses. Also divisive was the hotly debated question of whether Harvard should divest its endowment from investments in fossil fuel companies; </span><span class="c0 c3">44 percent </span><span class="c0">of respondents said they supported divestment, </span><span class="c0 c3">24 percent </span><span class="c0">opposed it, and </span><span class="c0 c3">32 percent </span><span class="c0">said they were unsure.</span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">Yet despite their inconsistent evaluations of Harvard&rsquo;s administrators and programs, </span><span class="c0 c3">92 percent </span><span class="c0">of surveyed seniors said they would again pick Harvard.</span></p><p class="c1"><span class="c0">&mdash;Radhika Jain, Hana N. Rouse, Robert S. Samuels, and Justin C. Worland contributed to the analysis of the survey data.</span></p><p class="c1 c8"><span class="c0 c4">&mdash;Staff writer Rebecca D. Robbins can be reached at rebecca.robbins@thecrimson.com. Follow her on Twitter </span><span class="c7 c0 c4"><a class="c6" href="http://www.google.com/url?q=http%3A%2F%2Ftwitter.com%2Frebeccadrobbins&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGlaCHcgCc_U5IvQ4Ko-XxECgB-sw">@rebeccadrobbins</a></span><span class="c0 c4">.</span></p>'
+  7: '<p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">The C</span><span class="c0">lass of 2014 attended Harvard during an eventful four years that included the return of ROTC and the early action admissions program, a massive cheating scandal and a controversial email search, the launch of a more than $1 billion House renewal project and a $6.5 billion capital campaign to help fund it, and the replacement of two College deans.</span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">When asked to evaluate the institution&rsquo;s leaders and initiatives, surveyed seniors were sometimes divided in their opinions. Take, for instance, University President Drew G. Faust, who received a </span><span class="c0 c3">48 percent </span><span class="c0">approval rating from graduating seniors, although </span><span class="c0 c3">34 percent </span><span class="c0">said they had no opinion or not enough information. </span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">Surveyed seniors had no trouble reaching consensus, however, regarding outgoing interim Dean of the College Donald H. Pfister, who emphasized communication with undergraduates while heading the College this past year. Pfister enjoyed an </span><span class="c0 c3">87 percent </span><span class="c0">approval rating among seniors, compared to the </span><span class="c0 c3">14 percent </span><span class="c0">approval rating of former College Dean </span><span class="c0">Evelynn M. Hammonds</span><span class="c0">, who </span><span class="c7 c0"><a class="c6" href="http://www.google.com/url?q=http%3A%2F%2Fwww.thecrimson.com%2Farticle%2F2013%2F5%2F28%2Fhammonds-crises-protect-searches%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFQDTOvgc-yGhKVn9mR5Ts50srxDw">led the undergraduate body</a></span><span class="c0">&nbsp;for the Class of 2014&rsquo;s first three years at Harvard. </span><span class="c0 c3">Twelve percent and 33 percent</span><span class="c0">&nbsp;of respondents said they had no opinion or not information about Pfister and Hammonds, respectively.</span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">University programs and positions also saw uneven support. Surveyed seniors were cool towards the </span><span class="c7 c0"><a class="c6" href="http://www.google.com/url?q=http%3A%2F%2Fwww.thecrimson.com%2Farticle%2F2014%2F5%2F6%2Ffaculty-passes-honor-code%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGPSOOhu04SkHPJc2o7kPXImr6EVQ">soon-to-be-overhauled</a></span><span class="c0">&nbsp;Administrative Board, with just </span><span class="c0 c3">13 percent</span><span class="c0">&nbsp;saying they approved of Harvard&rsquo;s disciplinary body. And although only Quincy seniors had the opportunity to experience the dividends of House Renewal, </span><span class="c0 c3">three-fifths </span><span class="c0">of all respondents said they approved of Harvard&rsquo;s plan to eventually restore all 12 undergraduate Houses. Also divisive was the hotly debated question of whether Harvard should divest its endowment from investments in fossil fuel companies; </span><span class="c0 c3">44 percent </span><span class="c0">of respondents said they supported divestment, </span><span class="c0 c3">24 percent </span><span class="c0">opposed it, and </span><span class="c0 c3">32 percent </span><span class="c0">said they were unsure.</span></p><p class="c1 c5"><span class="c0"></span></p><p class="c1"><span class="c0">Yet despite their inconsistent evaluations of Harvard&rsquo;s administrators and programs, </span><span class="c0 c3">92 percent </span><span class="c0">of surveyed seniors said they would again pick Harvard.</span></p>'
 }
 
 $(document).ready ->
@@ -146,7 +146,63 @@ $(document).ready ->
   $("#section1-graph3").highcharts() # TODO
 
   # Fields by gender
-  $("#section1-graph4").highcharts() # TODO
+  $("#section1-graph4").highcharts
+    chart:
+      backgroundColor: null
+      style:
+        fontFamily: "Source Sans Pro"
+      type: "column"
+    colors: ["#FFFFFF", "#CCCCCC"]
+    credits:
+      enabled: false
+    legend:
+      enabled: true
+      itemHiddenStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemHoverStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemStyle:
+        color: "#FFFFFF"
+        fontWeight: "bold"
+    series: [
+      name: "Females"
+      data: [14.67, 10.81, 10.04, 9.27, 11.97]
+    ,
+      name: "Males"
+      data: [14.40, 18.8, 24.0, 6.0, 5.20]
+    ]
+    title:
+      text: null
+    tooltip:
+      animation: false
+      pointFormat: "{series.name}: <b>{point.y}%</b>"
+      shadow: false
+    xAxis:
+      categories: [
+        "Consulting"
+        "Tech/engineering"
+        "Finance"
+        "Education"
+        "Public service/nonprofit"
+      ]
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      gridLineWidth: 1
+      tickWidth: 0
+      labels:
+        style:
+          color: "#FFF"
+    yAxis:
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      lineColor: "#FFF"
+      lineWidth: 1
+      title:
+        text: null
+      labels:
+        format: "{value}%"
+        style:
+          color: "#FFF"
 
   # Field next year vs. field in ten years
   $("#section1-graph5").highcharts
@@ -257,12 +313,64 @@ $(document).ready ->
 
   # SECTION 2 (A DIVERSE CLASS)
 
-  $("#section2-graph2").highcharts() # TODO
+  $("#section2-graph2").highcharts
+    chart:
+      backgroundColor: null
+      style:
+        fontFamily: "Source Sans Pro"
+      type: "column"
+    colors: ["#FFFFFF", "#CCCCCC", "#999999", "#666666"]
+    credits:
+      enabled: false
+    legend:
+      enabled: true
+      itemHiddenStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemHoverStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemStyle:
+        color: "#FFFFFF"
+        fontWeight: "bold"
+    plotOptions:
+      column:
+        stacking: "percent"
+    series: [
+      name: "Lower class / poor"
+      data: [49.15, 6.19, 0, 0, 0, 1.2, ]
+    ,
+      name: "Working class / lower middle class"
+      data: [45.76, 77.88, 33.88, 3.76, 0, 0]
+    ,
+      name: "Upper middle class"
+      data: [5.08, 15.93, 66.12, 90.86, 74.11, 19.75]
+    ,
+      name: "Upper class"
+      data: [0, 0, 0, 5.38, 25.89, 79.01]
+    ]
+    title:
+      text: null
+    xAxis:
+      categories: ["&lt; $40,000", "$40,000-$79,999", "$80,000-$124,999", "$125,000-$249,999", "$250,000-$499,999", "$500,000+"]
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      gridLineWidth: 1
+      tickWidth: 0
+      labels:
+        style:
+          color: "#FFF"
+    yAxis:
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      lineColor: "#FFF"
+      lineWidth: 1
+      title:
+        text: null
+      labels:
+        format: "{value}%"
+        style:
+          color: "#FFF"
+
   $("#section2-graph5").highcharts() # TODO
-
-  # SECTION 3 (ACADEMICS AND CHEATING)
-
-  $("#section3-graph3").highcharts() # TODO
 
   # SECTION 4 ("EXTRACURRICULARS")
 
@@ -270,18 +378,209 @@ $(document).ready ->
 
   # SECTION 5 (MENTAL HEALTH AND SEXUAL ASSAULT)
 
-  $("#section5-graph3").highcharts() # TODO - WTF TO DO HERE
+  $("#section5-graph3").highcharts
+    chart:
+      backgroundColor: null
+      style:
+        fontFamily: "Source Sans Pro"
+      type: "column"
+    colors: ["#FFFFFF", "#CCCCCC", "#999999", "#666666"]
+    credits:
+      enabled: false
+    legend:
+      enabled: true
+      itemHiddenStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemHoverStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemStyle:
+        color: "#FFFFFF"
+        fontWeight: "bold"
+    plotOptions:
+      column:
+        stacked: "normal"
+    series: [
+      name: "Very Dissatisfied"
+      data: [13.7, 6.25, 4.65, 10.7]
+    ,
+      name: "Dissatisfied"
+      data: [23.0, 10.20, 4.65, 12.5]
+    ,
+      name: "Neutral"
+      data: [21.2, 29.70, 16.30, 16.1]
+    ,
+      name: "Satisfied"
+      data: [29.2, 23.40, 25.6, 33.9]
+    ,
+      name: "Very Satisfied"
+      data: [12.8, 30.5, 48.8, 26.8]
+    ]
+    title:
+      text: null
+    xAxis:
+      categories: [
+        "UHS"
+        "Bureau of Study Counsel"
+        "Off-campus professionals"
+        "Peer counseling group"
+      ]
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      gridLineWidth: 1
+      tickWidth: 0
+      labels:
+        style:
+          color: "#FFF"
+    yAxis:
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      lineColor: "#FFF"
+      lineWidth: 1
+      title:
+        text: null
+      labels:
+        format: "{value}%"
+        style:
+          color: "#FFF"
 
   # SECTION 6 (POLITICS)
 
-  $("#section6-graph2").highcharts() # TODO
-  $("#section6-graph3").highcharts() # TODO
+  # Our politics
+  $("#section6-graph2").highcharts
+    chart:
+      backgroundColor: "rgba(255, 255, 255, 0.7)"
+      height: 200
+      inverted: true
+      style:
+        fontFamily: "Source Sans Pro"
+      type: "column"
+    colors: ["#656368", "#cc1100", "#ee2233", "#8a00bb", "#0081de", "#110099"]
+    credits:
+      enabled: false
+    legend:
+      enabled: true
+      itemHiddenStyle:
+        color: "#000000"
+        fontWeight: "normal"
+      itemHoverStyle:
+        color: "#000000"
+        fontWeight: "normal"
+      itemStyle:
+        color: "#000000"
+        fontWeight: "bold"
+    plotOptions:
+      column:
+        borderWidth: 0
+        stacking: "percent"
+
+    series: [
+      name: "Apolitical"
+      data: [2.4]
+    ,
+      name: "Very conservative"
+      data: [1.55]
+    ,
+      name: "Conservative"
+      data: [12.01]
+    ,
+      name: "Moderate"
+      data: [25.28]
+    ,
+      name: "Liberal"
+      data: [41.38]
+    ,
+      name: "Very liberal"
+      data: [17.37]
+    ]
+    tooltip:
+      animation: false
+      pointFormat: "{series.name}: <b>{point.y}%</b>"
+      shadow: false
+    title:
+      text: null
+    xAxis:
+      gridLineWidth: 0
+      labels:
+        enabled: false
+      lineWidth: 0
+      tickWidth: 0
+      title:
+        text: null
+    yAxis:
+      gridLineWidth: 0
+      labels:
+        enabled: false
+      lineWidth: 0
+      title:
+        text: null
+
+  # Political approval ratings
+  $("#section6-graph3").highcharts
+    chart:
+      backgroundColor: null
+      style:
+        fontFamily: "Source Sans Pro"
+      type: "column"
+    colors: ["#FFFFFF", "#CCCCCC", "#999999", "#666666"]
+    credits:
+      enabled: false
+    legend:
+      enabled: true
+      itemHiddenStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemHoverStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemStyle:
+        color: "#FFFFFF"
+        fontWeight: "bold"
+    series: [
+      name: "Favorable"
+      data: [71.57, 90.49, 66.25, 61.76, 60.84]
+    ,
+      name: "Unfavorable"
+      data: [18.49, 4.62, 16.95, 17.51, 14.97]
+    ,
+      name: "No opinion"
+      data: [8.96, 4.76, 9.52, 16.67, 11.33]
+    ,
+      name: "Not enough information"
+      data: [0.98, 0.14, 7.28, 4.06, 12.8, ]
+    ]
+    title:
+      text: null
+    xAxis:
+      categories: [
+        "Barack Obama"
+        "Same-sex marriage"
+        "Affordable Care Act"
+        "Legalization of marijuana"
+        "National $10.10 minimum wage"
+      ]
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      gridLineWidth: 1
+      tickWidth: 0
+      labels:
+        style:
+          color: "#FFF"
+    yAxis:
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      lineColor: "#FFF"
+      lineWidth: 1
+      title:
+        text: null
+      labels:
+        format: "{value}%"
+        style:
+          color: "#FFF"
 
   # SECTION 7 (GRADING HARVARD)
 
-  $("#section7-graph1").highcharts() # TODO - TWO STACKED BAR CHARTS
+  $("#section7-graph1-1").highcharts() # TODO - TWO STACKED BAR CHARTS
+  $("#section7-graph1-2").highcharts()
 
-  $("#section7-graph2").highcharts(
+  $("#section7-graph2").highcharts
     chart:
       backgroundColor: null
       style:
@@ -309,4 +608,3 @@ $(document).ready ->
       ]
     title:
       text: null
-  )
