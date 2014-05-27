@@ -396,10 +396,9 @@ $(document).ready ->
       enabled: true
       itemHiddenStyle:
         color: "#FFFFFF"
-        fontWeight: "normal"
       itemHoverStyle:
         color: "#FFFFFF"
-        fontWeight: "normal"
+        cursor: "default"
       itemStyle:
         color: "#FFFFFF"
         fontWeight: "bold"
@@ -407,17 +406,17 @@ $(document).ready ->
       column:
         stacking: "percent"
     series: [
-      name: "Lower class / poor"
-      data: [49.15, 6.19, 0, 0, 0, 1.23]
-    ,
-      name: "Working class / lower middle class"
-      data: [45.76, 77.88, 33.88, 3.76, 0, 0]
+      name: "Upper class"
+      data: [0, 0, 0, 5.38, 25.89, 79.01]
     ,
       name: "Upper middle class"
       data: [5.08, 15.93, 66.12, 90.86, 74.11, 19.75]
     ,
-      name: "Upper class"
-      data: [0, 0, 0, 5.38, 25.89, 79.01]
+      name: "Working class / lower middle class"
+      data: [45.76, 77.88, 33.88, 3.76, 0, 0]
+    ,
+      name: "Lower class / poor"
+      data: [49.15, 6.19, 0, 0, 0, 1.23]
     ]
     title:
       text: null
@@ -605,13 +604,13 @@ $(document).ready ->
       enabled: true
       itemHiddenStyle:
         color: "#000000"
-        fontWeight: "normal"
       itemHoverStyle:
         color: "#000000"
-        fontWeight: "normal"
+        cursor: "default"
       itemStyle:
         color: "#000000"
         fontWeight: "bold"
+      reversed: true
     plotOptions:
       column:
         borderWidth: 0
@@ -643,6 +642,7 @@ $(document).ready ->
     title:
       text: null
     xAxis:
+      categories: ["Percent of total"]
       gridLineWidth: 0
       labels:
         enabled: false
@@ -672,10 +672,9 @@ $(document).ready ->
       enabled: true
       itemHiddenStyle:
         color: "#FFFFFF"
-        fontWeight: "normal"
       itemHoverStyle:
         color: "#FFFFFF"
-        fontWeight: "normal"
+        cursor: "default"
       itemStyle:
         color: "#FFFFFF"
         fontWeight: "bold"
@@ -734,13 +733,12 @@ $(document).ready ->
       enabled: true
       itemHiddenStyle:
         color: "#FFFFFF"
-        fontWeight: "normal"
       itemHoverStyle:
         color: "#FFFFFF"
-        fontWeight: "normal"
       itemStyle:
         color: "#FFFFFF"
         fontWeight: "bold"
+      reversed: true
     plotOptions:
       column:
         stacking: "percent"
@@ -791,13 +789,13 @@ $(document).ready ->
       enabled: true
       itemHiddenStyle:
         color: "#FFFFFF"
-        fontWeight: "normal"
       itemHoverStyle:
         color: "#FFFFFF"
-        fontWeight: "normal"
+        cursor: "default"
       itemStyle:
         color: "#FFFFFF"
         fontWeight: "bold"
+      reversed: true
     plotOptions:
       column:
         stacking: "percent"
