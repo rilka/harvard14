@@ -43,91 +43,97 @@ $(document).ready ->
 
   ### SCROLLING ###
 
-  defaultOffset = 200
+  # fix for mobile
+  if  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+    for section in [1..7]
+      $("#section-" + section).addClass("current section-" + section).css("opacity", 1)
 
-  # HACK ~ So we have a clean slate every time
-  $(document).scrollTop(0);
-  $("body").addClass("section-1")
+  else   
+    defaultOffset = 200
 
-  # Hide header and introduction when scrolling down
-  $("#section-1").waypoint((direction) ->
-    if direction == "down"
-      $("header").animate {opacity: 0}
-      $(".intro").animate {opacity: 0}
+    # HACK ~ So we have a clean slate every time
+    $(document).scrollTop(0);
+    $("body").addClass("section-1")
 
-      # Facelift to first section
-      $("body").removeClass()
-      $("body").addClass("section-1")
+    # Hide header and introduction when scrolling down
+    $("#section-1").waypoint((direction) ->
+      if direction == "down"
+        $("header").animate {opacity: 0}
+        $(".intro").animate {opacity: 0}
 
-      $("nav li a[href=#section-1]").addClass("active")
+        # Facelift to first section
+        $("body").removeClass()
+        $("body").addClass("section-1")
 
-    else if direction == "up"
-      $("header").animate {opacity: 1}
-      $(".intro").animate {opacity: 1}
+        $("nav li a[href=#section-1]").addClass("active")
 
-      # Facelift back to original
-      $("body").removeClass()
-  ,
-    offset: defaultOffset
-  )
+      else if direction == "up"
+        $("header").animate {opacity: 1}
+        $(".intro").animate {opacity: 1}
 
-  # Fix navigation when scrolling down
-  $("nav").waypoint((direction) ->
-    if direction == "down"
-      $(this).addClass("stuck")
+        # Facelift back to original
+        $("body").removeClass()
+    ,
+      offset: defaultOffset
+    )
 
-    else if direction == "up"
-      $(this).removeClass("stuck")
-  ,
-    offset: defaultOffset
-  )
+    # Fix navigation when scrolling down
+    $("nav").waypoint((direction) ->
+      if direction == "down"
+        $(this).addClass("stuck")
 
-  # Hide navigation when footer is reached
-  $("footer").waypoint((direction) ->
-    if direction == "down"
-      $("nav").animate {opacity: 0}
+      else if direction == "up"
+        $(this).removeClass("stuck")
+    ,
+      offset: defaultOffset
+    )
 
-    else if direction == "up"
-      $("nav").animate {opacity: 1}
-  ,
-    offset: $("nav").height() * 2 + defaultOffset
-  )
+    # Hide navigation when footer is reached
+    $("footer").waypoint((direction) ->
+      if direction == "down"
+        $("nav").animate {opacity: 0}
 
-  # Switch inner sections when scrolling down
-  $("section.tail").waypoint((direction) ->
-    if direction == "down"
-      $("section").removeClass("current")
-      $(this).addClass("current")
+      else if direction == "up"
+        $("nav").animate {opacity: 1}
+    ,
+      offset: $("nav").height() * 2 + defaultOffset
+    )
 
-      # Facelift to appropriate section
-      id = $(this).attr("id")
-      $("body").removeClass()
-      $("body").addClass(id)
+    # Switch inner sections when scrolling down
+    $("section.tail").waypoint((direction) ->
+      if direction == "down"
+        $("section").removeClass("current")
+        $(this).addClass("current")
 
-      # Change link to active
-      $("nav li a").removeClass()
-      $("nav li a[href=#" + id + "]").addClass("active")
-  ,
-    offset: defaultOffset + 40
-  )
+        # Facelift to appropriate section
+        id = $(this).attr("id")
+        $("body").removeClass()
+        $("body").addClass(id)
 
-  # Switch inner sections when scrolling up
-  $("section.head").waypoint((direction) ->
-    if direction == "up"
-      $("section").removeClass("current")
-      $(this).addClass("current")
+        # Change link to active
+        $("nav li a").removeClass()
+        $("nav li a[href=#" + id + "]").addClass("active")
+    ,
+      offset: defaultOffset + 40
+    )
 
-      # Facelift to appropriate section
-      id = $(this).attr("id")
-      $("body").removeClass()
-      $("body").addClass(id)
+    # Switch inner sections when scrolling up
+    $("section.head").waypoint((direction) ->
+      if direction == "up"
+        $("section").removeClass("current")
+        $(this).addClass("current")
 
-      # Change link to active
-      $("nav li a").removeClass()
-      $("nav li a[href=#" + id + "]").addClass("active")
-  ,
-    offset: -defaultOffset - 500 # HACK ~ This is not really okay but fuck it
-  )
+        # Facelift to appropriate section
+        id = $(this).attr("id")
+        $("body").removeClass()
+        $("body").addClass(id)
+
+        # Change link to active
+        $("nav li a").removeClass()
+        $("nav li a[href=#" + id + "]").addClass("active")
+    ,
+      offset: -defaultOffset - 500 # HACK ~ This is not really okay but fuck it
+    )
 
   ### NAVIGATION ###
 
