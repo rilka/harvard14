@@ -48,7 +48,7 @@ $(document).ready(function() {
       });
       $("body").removeClass();
       $("body").addClass("section-1");
-      return $("nav a[href=#section-1]").addClass("active");
+      return $("nav li a[href=#section-1]").addClass("active");
     } else if (direction === "up") {
       $("header").animate({
         opacity: 1
@@ -91,8 +91,8 @@ $(document).ready(function() {
       id = $(this).attr("id");
       $("body").removeClass();
       $("body").addClass(id);
-      $("nav a").removeClass();
-      return $("nav a[href=#" + id + "]").addClass("active");
+      $("nav li a").removeClass();
+      return $("nav li a[href=#" + id + "]").addClass("active");
     }
   }, {
     offset: defaultOffset + 40
@@ -105,16 +105,21 @@ $(document).ready(function() {
       id = $(this).attr("id");
       $("body").removeClass();
       $("body").addClass(id);
-      $("nav a").removeClass();
-      return $("nav a[href=#" + id + "]").addClass("active");
+      $("nav li a").removeClass();
+      return $("nav li a[href=#" + id + "]").addClass("active");
     }
   }, {
-    offset: -defaultOffset
+    offset: -defaultOffset - 500
   });
 
   /* NAVIGATION */
-  $("nav a").click(function(e) {
-    return e.preventDefault();
+  $("nav li a").click(function(e) {
+    var href;
+    e.preventDefault();
+    href = $(e.target).attr("href");
+    return $("html, body").animate({
+      scrollTop: $(href).offset().top
+    }, 1000);
   });
 
   /* VISUALS (or something like that) */
@@ -820,8 +825,158 @@ $(document).ready(function() {
       }
     }
   });
-  $("#section7-graph1-1").highcharts();
-  $("#section7-graph1-2").highcharts();
+  $("#section7-graph1-1").highcharts({
+    chart: {
+      backgroundColor: null,
+      style: {
+        fontFamily: "Source Sans Pro"
+      },
+      type: "column"
+    },
+    colors: ["#FFFFFF", "#CCCCCC", "#AB6060", "#7BBD82"],
+    credits: {
+      enabled: false
+    },
+    legend: {
+      enabled: true,
+      itemHiddenStyle: {
+        color: "#FFFFFF",
+        fontWeight: "normal"
+      },
+      itemHoverStyle: {
+        color: "#FFFFFF",
+        fontWeight: "normal"
+      },
+      itemStyle: {
+        color: "#FFFFFF",
+        fontWeight: "bold"
+      }
+    },
+    plotOptions: {
+      column: {
+        stacking: "percent"
+      }
+    },
+    series: [
+      {
+        name: "Not Enough Information",
+        data: [5.14, 3.19, 6.11, 8.36, 3.05]
+      }, {
+        name: "No Opinion",
+        data: [28.89, 8.46, 26.67, 33.57, 20.80]
+      }, {
+        name: "Unfavorable",
+        data: [17.64, 1.39, 53.06, 44.71, 9.02]
+      }, {
+        name: "Favorable",
+        data: [48.33, 86.96, 14.17, 13.37, 67.13]
+      }
+    ],
+    title: {
+      text: null
+    },
+    xAxis: {
+      categories: ["Drew Faust", "Don Pfister", "Evelynn Hammonds", "The Ad Board", "Gus and Sietse"],
+      gridLineColor: "rgba(255, 255, 255, 0.2)",
+      gridLineWidth: 1,
+      tickWidth: 0,
+      labels: {
+        style: {
+          color: "#FFF"
+        }
+      }
+    },
+    yAxis: {
+      gridLineColor: "rgba(255, 255, 255, 0.2)",
+      lineColor: "#FFF",
+      lineWidth: 1,
+      title: {
+        text: null
+      },
+      labels: {
+        format: "{value}%",
+        style: {
+          color: "#FFF"
+        }
+      }
+    }
+  });
+  $("#section7-graph1-2").highcharts({
+    chart: {
+      backgroundColor: null,
+      style: {
+        fontFamily: "Source Sans Pro"
+      },
+      type: "column"
+    },
+    colors: ["#7BBD82", "#AB6060", "#FFFFFF", "#CCCCCC"],
+    credits: {
+      enabled: false
+    },
+    legend: {
+      enabled: true,
+      itemHiddenStyle: {
+        color: "#FFFFFF",
+        fontWeight: "normal"
+      },
+      itemHoverStyle: {
+        color: "#FFFFFF",
+        fontWeight: "normal"
+      },
+      itemStyle: {
+        color: "#FFFFFF",
+        fontWeight: "bold"
+      }
+    },
+    plotOptions: {
+      column: {
+        stacking: "percent"
+      }
+    },
+    series: [
+      {
+        name: "Favorable",
+        data: [24.90, 59.33, 23.54, 40.97]
+      }, {
+        name: "Unfavorable",
+        data: [14.74, 12.12, 12.81, 9.17]
+      }, {
+        name: "No Opinion",
+        data: [38.66, 19.64, 38.58, 29.44]
+      }, {
+        name: "Not Enough Information",
+        data: [21.70, 8.91, 25.07, 20.42]
+      }
+    ],
+    title: {
+      text: null
+    },
+    xAxis: {
+      categories: ["Capital Campaign", "House Renewal", "Approved Honor Code", "$250K Campaign"],
+      gridLineColor: "rgba(255, 255, 255, 0.2)",
+      gridLineWidth: 1,
+      tickWidth: 0,
+      labels: {
+        style: {
+          color: "#FFF"
+        }
+      }
+    },
+    yAxis: {
+      gridLineColor: "rgba(255, 255, 255, 0.2)",
+      lineColor: "#FFF",
+      lineWidth: 1,
+      title: {
+        text: null
+      },
+      labels: {
+        format: "{value}%",
+        style: {
+          color: "#FFF"
+        }
+      }
+    }
+  });
   return $("#section7-graph2").highcharts({
     chart: {
       backgroundColor: null,

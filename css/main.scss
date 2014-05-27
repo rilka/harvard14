@@ -1,6 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Pacifico");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900");
-@import url("http://fonts.googleapis.com/css?family=Lato:700");
+@import url("http://fonts.googleapis.com/css?family=Lato:300");
 
 // VARIABLES
 
@@ -172,6 +172,7 @@ nav {
     margin-bottom: 20px;
     padding: 16px 12px;
     border: 1px solid #FFF;
+    text-align: center;
 
     &:hover {
       opacity: 0.7;
@@ -180,8 +181,8 @@ nav {
     .one {
       display: block;
       font-family: "Big Caslon", "Georgia";
-      font-size: 15px;
-      font-style: italic;
+      font-size: 16px;
+
       font-weight: 200;
       text-transform: none;
     }
@@ -191,8 +192,8 @@ nav {
       font-family: "Lato";
       letter-spacing: 1px;
       padding-top: 4px;
-      font-size: 12px;
-      font-weight: 700;
+      font-size: 11px;
+      font-weight: 300;
     }
   }
 }
