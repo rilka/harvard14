@@ -20,12 +20,37 @@ a {
   background: rgba(0, 0, 0, 0.9);
   color: #FFF; }
 
+.topbar {
+  background: #222;
+  height: 40px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10; }
+  .topbar a:hover {
+    opacity: 0.7; }
+  .topbar .logo {
+    display: inline-block;
+    color: #FFF;
+    font-family: "Big Caslon", Georgia, serif;
+    line-height: 40px;
+    padding-left: 14px;
+    padding-right: 14px; }
+  .topbar .link-commencement {
+    display: inline-block;
+    font-weight: 200;
+    padding-right: 14px; }
+  .topbar .link-seniors {
+    display: inline-block;
+    font-weight: 200; }
+
 header {
   background: url(../img/header.jpg) no-repeat center;
   background-size: cover;
   overflow: auto; }
   header .header-content {
-    padding-top: 48px; }
+    padding-top: 60px; }
     header .header-content h1 {
       color: #FFF;
       font-family: "Pacifico";
@@ -53,7 +78,7 @@ header {
       font-size: 14px;
       font-weight: 200;
       width: 480px;
-      margin: 80px auto 0;
+      margin: 40px auto 0;
       text-align: center;
       text-shadow: 2px 2px 8px #000; }
       header .header-content h3 .name {

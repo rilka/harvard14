@@ -47,13 +47,48 @@ a {
 
 // OUTER LAYOUT
 
+.topbar {
+  $barheight: 40px;
+  background: #222;
+  height: $barheight;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+
+  a:hover {
+    opacity: 0.7;
+  }
+
+  .logo {
+    display: inline-block;
+    color: #FFF;
+    font-family: "Big Caslon", Georgia, serif;
+    line-height: $barheight;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .link-commencement {
+    display: inline-block;
+    font-weight: 200;
+    padding-right: 14px;
+  }
+
+  .link-seniors {
+    display: inline-block;
+    font-weight: 200;
+  }
+}
+
 header {
   background: url(../img/header.jpg) no-repeat center;
   background-size: cover;
   overflow: auto;
 
   .header-content {
-    padding-top: 48px;
+    padding-top: 60px;
     h1 {
       color: #FFF;
       font-family: "Pacifico";
@@ -91,7 +126,7 @@ header {
       font-size: 14px;
       font-weight: 200;
       width: 480px;
-      margin: 80px auto 0;
+      margin: 40px auto 0;
       text-align: center;
       text-shadow: 2px 2px 8px #000;
 
