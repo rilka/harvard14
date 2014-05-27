@@ -1,5 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Pacifico");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900");
+@import url("http://fonts.googleapis.com/css?family=Lato:700");
 
 // VARIABLES
 
@@ -101,6 +102,10 @@ header {
       .name {
         font-weight: 600;
         text-transform: uppercase;
+
+        a:hover {
+          opacity: 0.7;
+        }
       }
     }
   }
@@ -178,7 +183,7 @@ nav {
 
     .one {
       display: block;
-      font-family: "Georgia";
+      font-family: "Big Caslon", "Georgia";
       font-size: 15px;
       font-style: italic;
       font-weight: 200;
@@ -187,8 +192,10 @@ nav {
 
     .two {
       display: block;
+      font-family: "Lato";
+      letter-spacing: 1px;
       padding-top: 4px;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 700;
     }
   }

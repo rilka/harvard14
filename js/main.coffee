@@ -90,7 +90,7 @@ $(document).ready ->
     else if direction == "up"
       $("nav").animate {opacity: 1}
   ,
-    offset: $("nav").height() * 3 + defaultOffset
+    offset: $("nav").height() * 2 + defaultOffset
   )
 
   # Switch inner sections when scrolling down
@@ -137,13 +137,79 @@ $(document).ready ->
 
   ### VISUALS (or something like that) ###
 
-  # Where we're from / where we're going
-  # TODO
-
   # SECTION 1 (POST.HARVARD)
 
+  # Where we're from / where we're going
+  # ~~~ TODO ~~~
+
   # Starting salary by gender
-  $("#section1-graph3").highcharts() # TODO
+  $("#section1-graph3").highcharts
+    chart:
+      backgroundColor: null
+      style:
+        fontFamily: "Source Sans Pro"
+      type: "column"
+    colors: ["#FFFFFF", "#DDDDDD", "#BBBBBB", "#999999", "#777777", "#555555", "#333333"]
+    credits:
+      enabled: false
+    legend:
+      enabled: true
+      itemHiddenStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemHoverStyle:
+        color: "#FFFFFF"
+        fontWeight: "normal"
+      itemStyle:
+        color: "#FFFFFF"
+        fontWeight: "bold"
+    plotOptions:
+      column:
+        stacking: "percent"
+    series: [
+      name: "Unpaid"
+      data: [4.37, 2.48]
+    ,
+      name: "<$30,000"
+      data: [18.25, 9.92]
+    ,
+      name: "$30,000-$49,999"
+      data: [30.95, 17.77]
+    ,
+      name: "$50,000-$69,999"
+      data: [21.03, 21.90]
+    ,
+      name: "$70,000-$89,999"
+      data: [21.83, 28.51]
+    ,
+      name: "$90,000-$109,999"
+      data: [1.98, 13.22]
+    ,
+      name: "$110,000+"
+      data: [1.59, 6.20]
+    ]
+    title:
+      text: null
+    tooltip:
+      pointFormat: "{series.name}: <b>{point.y}%</b>"
+    xAxis:
+      categories: ["Female", "Male"]
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      gridLineWidth: 1
+      tickWidth: 0
+      labels:
+        style:
+          color: "#FFF"
+    yAxis:
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      lineColor: "#FFF"
+      lineWidth: 1
+      title:
+        text: null
+      labels:
+        format: "{value}%"
+        style:
+          color: "#FFF"
 
   # Fields by gender
   $("#section1-graph4").highcharts
@@ -284,7 +350,7 @@ $(document).ready ->
     legend:
       enabled: false
     series: [
-      data: [47, 39, 20, 30.52, 21.7, 21.2, 31, 31]
+      data: [47, 39, 20, 30.5, 22, 32, 31, 31]
     ]
     title:
       text: null
@@ -411,7 +477,44 @@ $(document).ready ->
 
   # SECTION 4 ("EXTRACURRICULARS")
 
-  $("#section4-graph4").highcharts() # TODO
+  $("#section4-graph4-1").highcharts
+    chart:
+      backgroundColor: null
+      style:
+        fontFamily: "Source Sans Pro"
+      type: "column"
+    colors: ["#FFFFFF"]
+    credits:
+      enabled: false
+    legend:
+      enabled: false
+    series: [
+      data: [5.5, 2.8, 4.8, 6.4, 17.2, 19.4, 21.9, 22.1]
+    ]
+    title:
+      text: null
+    tooltip:
+      animation: false
+      pointFormat: "<b>{point.y}%</b>"
+      shadow: false
+    xAxis:
+      categories: ["Never", "Less than once a semester", "Two or three times a semester", "Once a month", "Two or three times a month", "Once a week", "Twice a week", "More than twice a week"]
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      gridLineWidth: 1
+      tickWidth: 0
+      labels:
+        style:
+          color: "#FFF"
+    yAxis:
+      gridLineColor: "rgba(255, 255, 255, 0.2)"
+      lineColor: "#FFF"
+      lineWidth: 1
+      title:
+        text: null
+      labels:
+        format: "{value}%"
+        style:
+          color: "#FFF"
 
   # SECTION 5 (MENTAL HEALTH AND SEXUAL ASSAULT)
 
