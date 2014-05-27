@@ -45,10 +45,6 @@ a {
   color: #FFF;
 }
 
-// HACK TO COPY OVER BOLD TEXT FROM GOOGLE DOCS LOL
-
-.c2, .c3 { font-weight: 600; }
-
 // OUTER LAYOUT
 
 header {
@@ -256,6 +252,7 @@ section {
 
     .intro-content {
       font-weight: 200;
+      font-size: 18px;
 
       a {
         border-bottom: 1px dotted #FFF;

@@ -293,7 +293,7 @@ $(document).ready ->
         color: "#FFFFFF"
         fontWeight: "bold"
     series: [
-      name: "Later"
+      name: "10 Years From Now"
       data: [10.61, .68, 5.31, 5.71, 15.92, 8.98, 6.26, 2.18, 8.84, 7.62, 10.07, 4.49, 3.13]
     ,
       name: "Now"
@@ -307,7 +307,7 @@ $(document).ready ->
       shadow: false
     xAxis:
       categories: [
-        "Academic/research"
+        "Academia/research"
         "Consulting"
         "Education"
         "Finance"
@@ -404,7 +404,7 @@ $(document).ready ->
         stacking: "percent"
     series: [
       name: "Lower class / poor"
-      data: [49.15, 6.19, 0, 0, 0, 1.2, ]
+      data: [49.15, 6.19, 0, 0, 0, 1.23]
     ,
       name: "Working class / lower middle class"
       data: [45.76, 77.88, 33.88, 3.76, 0, 0]
@@ -686,7 +686,7 @@ $(document).ready ->
       data: [8.96, 4.76, 9.52, 16.67, 11.33]
     ,
       name: "Not enough information"
-      data: [0.98, 0.14, 7.28, 4.06, 12.8, ]
+      data: [0.98, 0.14, 7.28, 4.06, 12.87, ]
     ]
     title:
       text: null

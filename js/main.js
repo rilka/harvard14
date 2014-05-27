@@ -306,7 +306,7 @@ $(document).ready(function() {
     },
     series: [
       {
-        name: "Later",
+        name: "10 Years From Now",
         data: [10.61, .68, 5.31, 5.71, 15.92, 8.98, 6.26, 2.18, 8.84, 7.62, 10.07, 4.49, 3.13]
       }, {
         name: "Now",
@@ -322,7 +322,7 @@ $(document).ready(function() {
       shadow: false
     },
     xAxis: {
-      categories: ["Academic/research", "Consulting", "Education", "Finance", "Health", "Technology/engineering", "Public service/nonprofit", "Publishing/media", "Arts/sports/entertainment", "Government/politics", "Entrepreneurship", "Other business", "Other"],
+      categories: ["Academia/research", "Consulting", "Education", "Finance", "Health", "Technology/engineering", "Public service/nonprofit", "Publishing/media", "Arts/sports/entertainment", "Government/politics", "Entrepreneurship", "Other business", "Other"],
       gridLineColor: "rgba(255, 255, 255, 0.2)",
       gridLineWidth: 1,
       tickWidth: 0,
@@ -435,7 +435,7 @@ $(document).ready(function() {
     series: [
       {
         name: "Lower class / poor",
-        data: [49.15, 6.19, 0, 0, 0, 1.2]
+        data: [49.15, 6.19, 0, 0, 0, 1.23]
       }, {
         name: "Working class / lower middle class",
         data: [45.76, 77.88, 33.88, 3.76, 0, 0]
@@ -788,7 +788,7 @@ $(document).ready(function() {
         data: [8.96, 4.76, 9.52, 16.67, 11.33]
       }, {
         name: "Not enough information",
-        data: [0.98, 0.14, 7.28, 4.06, 12.8]
+        data: [0.98, 0.14, 7.28, 4.06, 12.87]
       }
     ],
     title: {

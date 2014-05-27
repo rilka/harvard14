@@ -20,9 +20,6 @@ a {
   background: rgba(0, 0, 0, 0.9);
   color: #FFF; }
 
-.c2, .c3 {
-  font-weight: 600; }
-
 header {
   background: url(../img/header.jpg) no-repeat center;
   background-size: cover;
@@ -162,7 +159,8 @@ section {
       font-weight: 900;
       text-transform: uppercase; }
     section .section-intro .intro-content {
-      font-weight: 200; }
+      font-weight: 200;
+      font-size: 18px; }
       section .section-intro .intro-content a {
         border-bottom: 1px dotted #FFF; }
         section .section-intro .intro-content a:hover {
