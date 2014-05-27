@@ -173,26 +173,26 @@ $(document).ready ->
       column:
         stacking: "percent"
     series: [
-      name: "Unpaid"
-      data: [4.37, 2.48]
-    ,
-      name: "<$30,000"
-      data: [18.25, 9.92]
-    ,
-      name: "$30,000-$49,999"
-      data: [30.95, 17.77]
-    ,
-      name: "$50,000-$69,999"
-      data: [21.03, 21.90]
-    ,
-      name: "$70,000-$89,999"
-      data: [21.83, 28.51]
+      name: "$110,000+"
+      data: [1.59, 6.20]
     ,
       name: "$90,000-$109,999"
       data: [1.98, 13.22]
     ,
-      name: "$110,000+"
-      data: [1.59, 6.20]
+      name: "$70,000-$89,999"
+      data: [21.83, 28.51]
+    ,
+      name: "$50,000-$69,999"
+      data: [21.03, 21.90]
+    ,
+      name: "$30,000-$49,999"
+      data: [30.95, 17.77]
+    ,
+      name: "<$30,000"
+      data: [18.25, 9.92]
+    ,
+      name: "Unpaid"
+      data: [4.37, 2.48]
     ]
     title:
       text: null
@@ -737,6 +737,7 @@ $(document).ready ->
         color: "#FFFFFF"
       itemHoverStyle:
         color: "#FFFFFF"
+        cursor: "default"
       itemStyle:
         color: "#FFFFFF"
         fontWeight: "bold"
